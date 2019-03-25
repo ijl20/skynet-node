@@ -1,0 +1,264 @@
+<table align="center"><tr><td><pre>
+
+</pre></td></tr></table>
+/* SKYNET BROWSER CLIENT CSS */
+
+/* *************************** */
+/* GENERAL PAGE CSS            */
+/* *************************** */
+
+html, body { 
+    font-family: sans-serif;
+    height: 90%;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* *************************** */
+/* USER INPUT AREA             */
+/* *************************** */
+
+#user_input_area {
+}
+
+#user_input {
+    width: 60%;
+    /* margin: 5px 0px 5px 25px; */
+}
+
+#user_input_box {
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    margin: 5px;
+}
+
+#user_input_menu  {
+    list-style: none;
+    background: #f6f6f6;
+    /* display:none;*/
+    position:absolute;
+    top:100%;
+    left: 88px;
+    margin-top: 0;
+    padding:0;
+    z-index: 9999;
+}
+
+
+/*
+#user_input_box:hover > ul
+{
+    display: block;
+}
+*/
+
+#user_input_menu li:hover
+{
+    background:#ccffcc;
+}
+
+#user_input_menu a
+{
+    display:block;
+    color:#333;
+    text-decoration:none;
+    font-weight:700;
+    font-size:12px;
+    line-height:32px;
+    padding:0 15px;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.user_input_menu_show {
+    display: block;
+}
+
+.user_input_menu_hide {
+    display: none;
+}
+
+/* ************************************************************************** */
+/* ************************************************************************** */
+/*                       HOSTS AREA                                           */
+/* ************************************************************************** */
+/* ************************************************************************** */
+
+#hosts_area {
+}
+
+/* Dropdown Menu CSS (modified from http://codepen.io/philhoyt/pen/ujHzd) */
+.host
+{
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.host ul
+{
+    list-style:none;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+.host ul a
+{
+    display:block;
+    color:#333;
+    text-decoration:none;
+    font-weight:700;
+    font-size:12px;
+    line-height:32px;
+    padding:0 15px;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.host ul li
+{
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+.host ul li.ppc_connected
+{
+    background:#ffff99;
+}
+
+.host ul li.ppc_disconnected
+{
+    background:#ddd;
+}
+
+.host ul li.ppc_idle
+{
+    background:#ffff99;
+}
+
+.host ul li.ppc_waiting
+{
+    background:#aae2ff;
+}
+
+.host ul li.ppc_reserved
+{
+    background:#aae2ff;
+}
+
+.host ul li.ppc_running
+{
+    background:#99ff66;
+}
+
+.host ul li.ppc_split
+{
+    background:#ffffff;
+}
+
+.host ul li.ppc_nosplit
+{
+    background:#33aa33;
+}
+
+.host ul li:hover > ul
+{
+    background:#f6f6f6;
+}
+
+.host ul li li:hover
+{
+    background:#ccffcc;
+}
+
+.host ul ul
+{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:6px;
+    background:#f6f6f6;
+    padding:0;
+    z-index: 9999;
+}
+
+.host ul ul li
+{
+    float:none;
+    width:120px;
+}
+
+.host ul ul a
+{
+    line-height:120%;
+    padding:6px 5px;
+}
+
+.host ul ul ul
+{
+    top:0;
+    left:100%;
+}
+
+/* here is where we make the menu visible */
+.host ul li:hover > ul
+{
+    display:block;
+}
+
+/* ********************************************************* */
+/* ********************************************************* */
+/* *************     STATUS AREA                 *********** */
+/* ********************************************************* */
+/* ********************************************************* */
+
+#status_area {
+}
+
+#status_text {
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+}
+
+#status_flow .status_text_user {
+    color: green;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+#status_flow .status_text_ppc {
+    color: black;
+    padding-left: 10px;
+}
+
+#status_flow .status_text_warning {
+    color: red;
+}
+
+#status_flow td {
+    width:  40px;
+    text-align: center;
+}
+
+#status_flow td.ppc_waiting {
+    color: #0000ff;
+    background-color: #B8DBFF;
+}
+
+#status_flow td.ppc_running {
+    color: #00CC66;
+    background-color: #66FFCC;
+}
+
+#status_flow td.ppc_nosplit {
+    color: #00CC66;
+    background-color: #00FF99;
+}
+

@@ -1,0 +1,1714 @@
+info: socket.io started
+
+-----
+---- Skynet web server listening on port 82
+Skynet web server listening on websocket
+Skynet server ready
+-------
+Skynet web server websocket browser connection event
+---- Skynet browser_refresh ---
+------- Skynet web server websocket Message Received from browser:
+{ userid: 'ijl20', event_type: 'person_joined', zone: 'skynet' }
+browser connected to web server: ijl20
+--- Skynet server: connection from PPC ---
+--- Skynet server to PPC socket: <ppc connect> ---
+NodeStatus adding carrier.csi.cam.ac.uk:1
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_idle
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_connected',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1' }
+--- Skynet server: connection from PPC ---
+--- Skynet server to PPC socket: <ppc connect> ---
+NodeStatus adding carrier.csi.cam.ac.uk:2
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_idle
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_connected',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2' }
+--- Skynet server: connection from PPC ---
+--- Skynet server to PPC socket: <ppc connect> ---
+NodeStatus adding carrier.csi.cam.ac.uk:3
+---- Skynet set_status carrier.csi.cam.ac.uk:3 ppc_idle
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_connected',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '3' }
+--- Skynet server: connection from PPC ---
+--- Skynet server to PPC socket: <ppc connect> ---
+NodeStatus adding carrier.csi.cam.ac.uk:4
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_idle
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_connected',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4' }
+--- Skynet server: connection from PPC ---
+--- Skynet server to PPC socket: <ppc connect> ---
+NodeStatus adding carrier.csi.cam.ac.uk:5
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_idle
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_connected',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5' }
+--- Skynet server: connection from PPC ---
+--- Skynet server to PPC socket: <ppc connect> ---
+NodeStatus adding carrier.csi.cam.ac.uk:6
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_idle
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_connected',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6' }
+------- Skynet web server websocket Message Received from browser:
+{ userid: 'ijl20',
+  event_type: 'user_input',
+  zone: 'skynet',
+  data: 'ppc start ./kappa.sh' }
+user_input received: ijl20
+--- Skynet PPC broadcast: < ppc start ./kappa.sh
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:1 < ppc start ./kappa.sh
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < ppc start ./kappa.sh
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:3 < ppc start ./kappa.sh
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:4 < ppc start ./kappa.sh
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:5 < ppc start ./kappa.sh
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:6 < ppc start ./kappa.sh
+ > ---
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) skynet loaded ./kappa.sh
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_waiting
+---- Skynet current WAITING ppcs # is: 1
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_status',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1',
+  data: 'ppc_waiting' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet loaded ./kappa.sh
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_waiting
+---- Skynet current WAITING ppcs # is: 2
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_status',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'ppc_waiting' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) skynet loaded ./kappa.sh
+---- Skynet set_status carrier.csi.cam.ac.uk:3 ppc_waiting
+---- Skynet current WAITING ppcs # is: 3
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 3 WAITING ppcs so splitting
+Oldest running is  . Running FIFO length now 0
+No running ppc to split
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_status',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '3',
+  data: 'ppc_waiting' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet loaded ./kappa.sh
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_waiting
+---- Skynet current WAITING ppcs # is: 4
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 4 WAITING ppcs so splitting
+Oldest running is  . Running FIFO length now 0
+No running ppc to split
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_status',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'ppc_waiting' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet loaded ./kappa.sh
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_waiting
+---- Skynet current WAITING ppcs # is: 5
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 5 WAITING ppcs so splitting
+Oldest running is  . Running FIFO length now 0
+No running ppc to split
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_status',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'ppc_waiting' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet loaded ./kappa.sh
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_waiting
+---- Skynet current WAITING ppcs # is: 6
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 6 WAITING ppcs so splitting
+Oldest running is  . Running FIFO length now 0
+No running ppc to split
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_status',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'ppc_waiting' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+------- Skynet web server websocket Message Received from browser:
+{ userid: 'ijl20',
+  event_type: 'user_input',
+  zone: 'skynet',
+  data: 'skynet bfp kappa 6' }
+user_input received: ijl20
+---- Skynet do_browser_command: skynet bfp kappa 6
+---- Skynet bfp ---
+---- Skynet calling skynet_bfp  kappa init 6
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:3 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_starting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:4 < run kappa init 6 0
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:6 < run kappa init 6 1
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:5 < run kappa init 6 2
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < run kappa init 6 3
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:3 < run kappa init 6 4
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:1 < run kappa init 6 5
+ > ---
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet running kappa 450 6 0
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_running
+Adding carrier.csi.cam.ac.uk:4 to running FIFO at time 1433340319693
+Length of running FIFO is 1
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 450 6 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet running kappa 450 6 1
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_running
+Adding carrier.csi.cam.ac.uk:6 to running FIFO at time 1433340319696
+Length of running FIFO is 2
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 450 6 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet running kappa 450 6 3
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_running
+Adding carrier.csi.cam.ac.uk:2 to running FIFO at time 1433340319701
+Length of running FIFO is 3
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'kappa 450 6 3' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) skynet running kappa 450 6 4
+---- Skynet set_status carrier.csi.cam.ac.uk:3 ppc_running
+Adding carrier.csi.cam.ac.uk:3 to running FIFO at time 1433340319704
+Length of running FIFO is 4
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '3',
+  data: 'kappa 450 6 4' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet running kappa 450 6 2
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_running
+Adding carrier.csi.cam.ac.uk:5 to running FIFO at time 1433340319705
+Length of running FIFO is 5
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 450 6 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) skynet running kappa 450 6 5
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_running
+Adding carrier.csi.cam.ac.uk:1 to running FIFO at time 1433340319709
+Length of running FIFO is 6
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1',
+  data: 'kappa 450 6 5' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet completed kappa 450 6 0 11
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_waiting
+---- Skynet current WAITING ppcs # is: 1
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 450 6 0 11' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet completed kappa 450 6 1 26
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_waiting
+---- Skynet current WAITING ppcs # is: 2
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 450 6 1 26' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet completed kappa 450 6 2 35
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_waiting
+---- Skynet current WAITING ppcs # is: 3
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 3 WAITING ppcs so splitting
+Oldest running is carrier.csi.cam.ac.uk:2 . Running FIFO length now 3
+---- Skynet splitting:  carrier.csi.cam.ac.uk:2
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_splitting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < ppc split > ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 450 6 2 35' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet split 15 36
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_msg',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'skynet split 15 36' }
+---- Skynet split_assign carrier.csi.cam.ac.uk:2 15
+---- Skynet calling skynet_bfp carrier.csi.cam.ac.uk:2 kappa 15 4
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_starting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:6 < run kappa 15 4 0
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < run kappa 15 4 1
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:5 < run kappa 15 4 2
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:4 < run kappa 15 4 3
+ > ---
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet running kappa 15 4 3
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_running
+Adding carrier.csi.cam.ac.uk:4 to running FIFO at time 1433340356793
+Length of running FIFO is 4
+running[0] is carrier.csi.cam.ac.uk:3
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 15 4 3' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet running kappa 15 4 2
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_running
+Adding carrier.csi.cam.ac.uk:5 to running FIFO at time 1433340356794
+Length of running FIFO is 5
+running[0] is carrier.csi.cam.ac.uk:3
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 15 4 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet running kappa 15 4 0
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_running
+Adding carrier.csi.cam.ac.uk:6 to running FIFO at time 1433340356794
+Length of running FIFO is 6
+running[0] is carrier.csi.cam.ac.uk:3
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 15 4 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet running kappa 15 4 1
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_running
+Adding carrier.csi.cam.ac.uk:2 to running FIFO at time 1433340356795
+Length of running FIFO is 7
+running[0] is carrier.csi.cam.ac.uk:3
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'kappa 15 4 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet completed kappa 15 4 0 1
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_waiting
+---- Skynet current WAITING ppcs # is: 1
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 15 4 0 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet completed kappa 15 4 1 2
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_waiting
+---- Skynet current WAITING ppcs # is: 2
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'kappa 15 4 1 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet completed kappa 15 4 2 3
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_waiting
+---- Skynet current WAITING ppcs # is: 3
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 3 WAITING ppcs so splitting
+Oldest running is carrier.csi.cam.ac.uk:3 . Running FIFO length now 6
+---- Skynet splitting:  carrier.csi.cam.ac.uk:3
+---- Skynet set_status carrier.csi.cam.ac.uk:3 ppc_splitting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:3 < ppc split > ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 15 4 2 3' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) skynet split 59 41
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_msg',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '3',
+  data: 'skynet split 59 41' }
+---- Skynet split_assign carrier.csi.cam.ac.uk:3 59
+---- Skynet calling skynet_bfp carrier.csi.cam.ac.uk:3 kappa 59 4
+---- Skynet set_status carrier.csi.cam.ac.uk:3 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_starting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:6 < run kappa 59 4 0
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:3 < run kappa 59 4 1
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:5 < run kappa 59 4 2
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < run kappa 59 4 3
+ > ---
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet running kappa 59 4 0
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_running
+Adding carrier.csi.cam.ac.uk:6 to running FIFO at time 1433340361818
+Length of running FIFO is 7
+running[0] is carrier.csi.cam.ac.uk:5
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 59 4 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) skynet running kappa 59 4 1
+---- Skynet set_status carrier.csi.cam.ac.uk:3 ppc_running
+Adding carrier.csi.cam.ac.uk:3 to running FIFO at time 1433340361821
+Length of running FIFO is 8
+running[0] is carrier.csi.cam.ac.uk:5
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '3',
+  data: 'kappa 59 4 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet running kappa 59 4 3
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_running
+Adding carrier.csi.cam.ac.uk:2 to running FIFO at time 1433340361822
+Length of running FIFO is 9
+running[0] is carrier.csi.cam.ac.uk:5
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'kappa 59 4 3' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet running kappa 59 4 2
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_running
+Adding carrier.csi.cam.ac.uk:5 to running FIFO at time 1433340361826
+Length of running FIFO is 10
+running[0] is carrier.csi.cam.ac.uk:5
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 59 4 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet completed kappa 59 4 0 3
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_waiting
+---- Skynet current WAITING ppcs # is: 1
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 59 4 0 3' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet completed kappa 15 4 3 10
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_waiting
+---- Skynet current WAITING ppcs # is: 2
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 15 4 3 10' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) skynet completed kappa 59 4 1 7
+---- Skynet set_status carrier.csi.cam.ac.uk:3 ppc_waiting
+---- Skynet current WAITING ppcs # is: 3
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 3 WAITING ppcs so splitting
+Oldest running is carrier.csi.cam.ac.uk:1 . Running FIFO length now 8
+---- Skynet splitting:  carrier.csi.cam.ac.uk:1
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_splitting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:1 < ppc split > ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '3',
+  data: 'kappa 59 4 1 7' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) skynet split 180 50
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_msg',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1',
+  data: 'skynet split 180 50' }
+---- Skynet split_assign carrier.csi.cam.ac.uk:1 180
+---- Skynet calling skynet_bfp carrier.csi.cam.ac.uk:1 kappa 180 4
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:3 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_starting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:6 < run kappa 180 4 0
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:4 < run kappa 180 4 1
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:3 < run kappa 180 4 2
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:1 < run kappa 180 4 3
+ > ---
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet running kappa 180 4 0
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_running
+Adding carrier.csi.cam.ac.uk:6 to running FIFO at time 1433340370864
+Length of running FIFO is 9
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 180 4 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) skynet running kappa 180 4 3
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_running
+Adding carrier.csi.cam.ac.uk:1 to running FIFO at time 1433340370865
+Length of running FIFO is 10
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1',
+  data: 'kappa 180 4 3' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet running kappa 180 4 1
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_running
+Adding carrier.csi.cam.ac.uk:4 to running FIFO at time 1433340370866
+Length of running FIFO is 11
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 180 4 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) skynet running kappa 180 4 2
+---- Skynet set_status carrier.csi.cam.ac.uk:3 ppc_running
+Adding carrier.csi.cam.ac.uk:3 to running FIFO at time 1433340370868
+Length of running FIFO is 12
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '3',
+  data: 'kappa 180 4 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet completed kappa 59 4 2 12
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_waiting
+---- Skynet current WAITING ppcs # is: 1
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 59 4 2 12' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet completed kappa 180 4 0 9
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_waiting
+---- Skynet current WAITING ppcs # is: 2
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 180 4 0 9' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet completed kappa 180 4 1 20
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_waiting
+---- Skynet current WAITING ppcs # is: 3
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 3 WAITING ppcs so splitting
+Oldest running is carrier.csi.cam.ac.uk:2 . Running FIFO length now 5
+---- Skynet splitting:  carrier.csi.cam.ac.uk:2
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_splitting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < ppc split > ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 180 4 1 20' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet split 8 30
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_msg',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'skynet split 8 30' }
+---- Skynet split_assign carrier.csi.cam.ac.uk:2 8
+---- Skynet calling skynet_bfp carrier.csi.cam.ac.uk:2 kappa 8 4
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_starting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:4 < run kappa 8 4 0
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < run kappa 8 4 1
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:5 < run kappa 8 4 2
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:6 < run kappa 8 4 3
+ > ---
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet running kappa 8 4 1
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_running
+Adding carrier.csi.cam.ac.uk:2 to running FIFO at time 1433340392925
+Length of running FIFO is 6
+running[0] is carrier.csi.cam.ac.uk:5
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'kappa 8 4 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet running kappa 8 4 3
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_running
+Adding carrier.csi.cam.ac.uk:6 to running FIFO at time 1433340392927
+Length of running FIFO is 7
+running[0] is carrier.csi.cam.ac.uk:5
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 8 4 3' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet running kappa 8 4 2
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_running
+Adding carrier.csi.cam.ac.uk:5 to running FIFO at time 1433340392928
+Length of running FIFO is 8
+running[0] is carrier.csi.cam.ac.uk:5
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 8 4 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet running kappa 8 4 0
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_running
+Adding carrier.csi.cam.ac.uk:4 to running FIFO at time 1433340392930
+Length of running FIFO is 9
+running[0] is carrier.csi.cam.ac.uk:5
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 8 4 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet completed kappa 8 4 0 0
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_waiting
+---- Skynet current WAITING ppcs # is: 1
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 8 4 0 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet completed kappa 8 4 1 1
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_waiting
+---- Skynet current WAITING ppcs # is: 2
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'kappa 8 4 1 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet completed kappa 8 4 2 2
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_waiting
+---- Skynet current WAITING ppcs # is: 3
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 3 WAITING ppcs so splitting
+Oldest running is carrier.csi.cam.ac.uk:1 . Running FIFO length now 6
+---- Skynet splitting:  carrier.csi.cam.ac.uk:1
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_splitting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:1 < ppc split > ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 8 4 2 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) skynet split 91 25
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_msg',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1',
+  data: 'skynet split 91 25' }
+---- Skynet split_assign carrier.csi.cam.ac.uk:1 91
+---- Skynet calling skynet_bfp carrier.csi.cam.ac.uk:1 kappa 91 4
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_starting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:1 < run kappa 91 4 0
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:5 < run kappa 91 4 1
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:4 < run kappa 91 4 2
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < run kappa 91 4 3
+ > ---
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet running kappa 91 4 2
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_running
+Adding carrier.csi.cam.ac.uk:4 to running FIFO at time 1433340396954
+Length of running FIFO is 7
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 91 4 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet running kappa 91 4 3
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_running
+Adding carrier.csi.cam.ac.uk:2 to running FIFO at time 1433340396955
+Length of running FIFO is 8
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'kappa 91 4 3' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet running kappa 91 4 1
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_running
+Adding carrier.csi.cam.ac.uk:5 to running FIFO at time 1433340396966
+Length of running FIFO is 9
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 91 4 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) skynet running kappa 91 4 0
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_running
+Adding carrier.csi.cam.ac.uk:1 to running FIFO at time 1433340396968
+Length of running FIFO is 10
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1',
+  data: 'kappa 91 4 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet completed kappa 8 4 3 5
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_waiting
+---- Skynet current WAITING ppcs # is: 1
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 8 4 3 5' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) skynet completed kappa 91 4 0 5
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_waiting
+---- Skynet current WAITING ppcs # is: 2
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1',
+  data: 'kappa 91 4 0 5' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) skynet completed kappa 180 4 2 36
+---- Skynet set_status carrier.csi.cam.ac.uk:3 ppc_waiting
+---- Skynet current WAITING ppcs # is: 3
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 3 WAITING ppcs so splitting
+Oldest running is carrier.csi.cam.ac.uk:3 . Running FIFO length now 8
+---- Skynet splitting:  carrier.csi.cam.ac.uk:3
+---- Skynet set_status carrier.csi.cam.ac.uk:3 ppc_splitting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:3 < ppc split > ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '3',
+  data: 'kappa 180 4 2 36' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) split rejected
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_msg',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '3',
+  data: 'split rejected' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:3) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet completed kappa 91 4 1 10
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_waiting
+---- Skynet current WAITING ppcs # is: 3
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 3 WAITING ppcs so splitting
+Oldest running is carrier.csi.cam.ac.uk:4 . Running FIFO length now 3
+---- Skynet splitting:  carrier.csi.cam.ac.uk:4
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_splitting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:4 < ppc split > ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 91 4 1 10' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet split 8 10
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_msg',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'skynet split 8 10' }
+---- Skynet split_assign carrier.csi.cam.ac.uk:4 8
+---- Skynet calling skynet_bfp carrier.csi.cam.ac.uk:4 kappa 8 4
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_starting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:4 < run kappa 8 4 0
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:1 < run kappa 8 4 1
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:6 < run kappa 8 4 2
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:5 < run kappa 8 4 3
+ > ---
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet running kappa 8 4 0
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_running
+Adding carrier.csi.cam.ac.uk:4 to running FIFO at time 1433340408013
+Length of running FIFO is 4
+running[0] is carrier.csi.cam.ac.uk:2
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 8 4 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet running kappa 8 4 3
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_running
+Adding carrier.csi.cam.ac.uk:5 to running FIFO at time 1433340408018
+Length of running FIFO is 5
+running[0] is carrier.csi.cam.ac.uk:2
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 8 4 3' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet running kappa 8 4 2
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_running
+Adding carrier.csi.cam.ac.uk:6 to running FIFO at time 1433340408019
+Length of running FIFO is 6
+running[0] is carrier.csi.cam.ac.uk:2
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 8 4 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) skynet running kappa 8 4 1
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_running
+Adding carrier.csi.cam.ac.uk:1 to running FIFO at time 1433340408020
+Length of running FIFO is 7
+running[0] is carrier.csi.cam.ac.uk:2
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1',
+  data: 'kappa 8 4 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet completed kappa 8 4 0 0
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_waiting
+---- Skynet current WAITING ppcs # is: 1
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 8 4 0 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) skynet completed kappa 8 4 1 1
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_waiting
+---- Skynet current WAITING ppcs # is: 2
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1',
+  data: 'kappa 8 4 1 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet completed kappa 8 4 2 2
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_waiting
+---- Skynet current WAITING ppcs # is: 3
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 3 WAITING ppcs so splitting
+Oldest running is carrier.csi.cam.ac.uk:2 . Running FIFO length now 6
+---- Skynet splitting:  carrier.csi.cam.ac.uk:2
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_splitting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < ppc split > ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 8 4 2 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet split 44 14
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_msg',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'skynet split 44 14' }
+---- Skynet split_assign carrier.csi.cam.ac.uk:2 44
+---- Skynet calling skynet_bfp carrier.csi.cam.ac.uk:2 kappa 44 4
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_starting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:1 < run kappa 44 4 0
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < run kappa 44 4 1
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:6 < run kappa 44 4 2
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:4 < run kappa 44 4 3
+ > ---
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet running kappa 44 4 3
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_running
+Adding carrier.csi.cam.ac.uk:4 to running FIFO at time 1433340412015
+Length of running FIFO is 7
+running[0] is carrier.csi.cam.ac.uk:5
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 44 4 3' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet running kappa 44 4 2
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_running
+Adding carrier.csi.cam.ac.uk:6 to running FIFO at time 1433340412016
+Length of running FIFO is 8
+running[0] is carrier.csi.cam.ac.uk:5
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 44 4 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) skynet running kappa 44 4 0
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_running
+Adding carrier.csi.cam.ac.uk:1 to running FIFO at time 1433340412016
+Length of running FIFO is 9
+running[0] is carrier.csi.cam.ac.uk:5
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1',
+  data: 'kappa 44 4 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet running kappa 44 4 1
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_running
+Adding carrier.csi.cam.ac.uk:2 to running FIFO at time 1433340412017
+Length of running FIFO is 10
+running[0] is carrier.csi.cam.ac.uk:5
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'kappa 44 4 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet completed kappa 8 4 3 5
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_waiting
+---- Skynet current WAITING ppcs # is: 1
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 8 4 3 5' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) skynet completed kappa 44 4 0 2
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_waiting
+---- Skynet current WAITING ppcs # is: 2
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1',
+  data: 'kappa 44 4 0 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet completed kappa 44 4 1 5
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_waiting
+---- Skynet current WAITING ppcs # is: 3
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 3 WAITING ppcs so splitting
+Oldest running is carrier.csi.cam.ac.uk:4 . Running FIFO length now 3
+---- Skynet splitting:  carrier.csi.cam.ac.uk:4
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_splitting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:4 < ppc split > ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'kappa 44 4 1 5' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet split 22 6
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_msg',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'skynet split 22 6' }
+---- Skynet split_assign carrier.csi.cam.ac.uk:4 22
+---- Skynet calling skynet_bfp carrier.csi.cam.ac.uk:4 kappa 22 4
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_starting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:1 < run kappa 22 4 0
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:5 < run kappa 22 4 1
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:4 < run kappa 22 4 2
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < run kappa 22 4 3
+ > ---
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet running kappa 22 4 3
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_running
+Adding carrier.csi.cam.ac.uk:2 to running FIFO at time 1433340419053
+Length of running FIFO is 4
+running[0] is carrier.csi.cam.ac.uk:6
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'kappa 22 4 3' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet running kappa 22 4 1
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_running
+Adding carrier.csi.cam.ac.uk:5 to running FIFO at time 1433340419054
+Length of running FIFO is 5
+running[0] is carrier.csi.cam.ac.uk:6
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 22 4 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) skynet running kappa 22 4 0
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_running
+Adding carrier.csi.cam.ac.uk:1 to running FIFO at time 1433340419055
+Length of running FIFO is 6
+running[0] is carrier.csi.cam.ac.uk:6
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1',
+  data: 'kappa 22 4 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet running kappa 22 4 2
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_running
+Adding carrier.csi.cam.ac.uk:4 to running FIFO at time 1433340419058
+Length of running FIFO is 7
+running[0] is carrier.csi.cam.ac.uk:6
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 22 4 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) skynet completed kappa 22 4 0 1
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_waiting
+---- Skynet current WAITING ppcs # is: 1
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1',
+  data: 'kappa 22 4 0 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet completed kappa 44 4 2 9
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_waiting
+---- Skynet current WAITING ppcs # is: 2
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 44 4 2 9' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet completed kappa 22 4 1 2
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_waiting
+---- Skynet current WAITING ppcs # is: 3
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 3 WAITING ppcs so splitting
+Oldest running is carrier.csi.cam.ac.uk:2 . Running FIFO length now 3
+---- Skynet splitting:  carrier.csi.cam.ac.uk:2
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_splitting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < ppc split > ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 22 4 1 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet split 11 3
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_msg',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'skynet split 11 3' }
+---- Skynet split_assign carrier.csi.cam.ac.uk:2 11
+---- Skynet calling skynet_bfp carrier.csi.cam.ac.uk:2 kappa 11 4
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_starting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:5 < run kappa 11 4 0
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:6 < run kappa 11 4 1
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < run kappa 11 4 2
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:1 < run kappa 11 4 3
+ > ---
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet running kappa 11 4 0
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_running
+Adding carrier.csi.cam.ac.uk:5 to running FIFO at time 1433340423090
+Length of running FIFO is 4
+running[0] is carrier.csi.cam.ac.uk:5
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 11 4 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet running kappa 11 4 2
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_running
+Adding carrier.csi.cam.ac.uk:2 to running FIFO at time 1433340423091
+Length of running FIFO is 5
+running[0] is carrier.csi.cam.ac.uk:5
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'kappa 11 4 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) skynet running kappa 11 4 3
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_running
+Adding carrier.csi.cam.ac.uk:1 to running FIFO at time 1433340423092
+Length of running FIFO is 6
+running[0] is carrier.csi.cam.ac.uk:5
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1',
+  data: 'kappa 11 4 3' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet running kappa 11 4 1
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_running
+Adding carrier.csi.cam.ac.uk:6 to running FIFO at time 1433340423093
+Length of running FIFO is 7
+running[0] is carrier.csi.cam.ac.uk:5
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 11 4 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet completed kappa 22 4 2 4
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_waiting
+---- Skynet current WAITING ppcs # is: 1
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 22 4 2 4' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet completed kappa 11 4 0 1
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_waiting
+---- Skynet current WAITING ppcs # is: 2
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 11 4 0 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet completed kappa 11 4 1 1
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_waiting
+---- Skynet current WAITING ppcs # is: 3
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 3 WAITING ppcs so splitting
+Oldest running is carrier.csi.cam.ac.uk:2 . Running FIFO length now 2
+---- Skynet splitting:  carrier.csi.cam.ac.uk:2
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_splitting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < ppc split > ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 11 4 1 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) split rejected
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_msg',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'split rejected' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet completed kappa 11 4 2 2
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_waiting
+---- Skynet current WAITING ppcs # is: 4
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 4 WAITING ppcs so splitting
+Oldest running is carrier.csi.cam.ac.uk:1 . Running FIFO length now 1
+---- Skynet splitting:  carrier.csi.cam.ac.uk:1
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_splitting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:1 < ppc split > ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'kappa 11 4 2 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) skynet split 4 3
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_msg',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1',
+  data: 'skynet split 4 3' }
+---- Skynet split_assign carrier.csi.cam.ac.uk:1 4
+---- Skynet calling skynet_bfp carrier.csi.cam.ac.uk:1 kappa 4 4
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_starting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:5 < run kappa 4 4 0
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:4 < run kappa 4 4 1
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:1 < run kappa 4 4 2
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < run kappa 4 4 3
+ > ---
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet running kappa 4 4 3
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_running
+Adding carrier.csi.cam.ac.uk:2 to running FIFO at time 1433340427132
+Length of running FIFO is 2
+running[0] is carrier.csi.cam.ac.uk:6
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'kappa 4 4 3' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet running kappa 4 4 1
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_running
+Adding carrier.csi.cam.ac.uk:4 to running FIFO at time 1433340427133
+Length of running FIFO is 3
+running[0] is carrier.csi.cam.ac.uk:6
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 4 4 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet running kappa 4 4 0
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_running
+Adding carrier.csi.cam.ac.uk:5 to running FIFO at time 1433340427134
+Length of running FIFO is 4
+running[0] is carrier.csi.cam.ac.uk:6
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 4 4 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) skynet running kappa 4 4 2
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_running
+Adding carrier.csi.cam.ac.uk:1 to running FIFO at time 1433340427135
+Length of running FIFO is 5
+running[0] is carrier.csi.cam.ac.uk:6
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1',
+  data: 'kappa 4 4 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet completed kappa 4 4 1 0
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_waiting
+---- Skynet current WAITING ppcs # is: 2
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 4 4 1 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet completed kappa 4 4 0 0
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_waiting
+---- Skynet current WAITING ppcs # is: 3
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 3 WAITING ppcs so splitting
+Oldest running is carrier.csi.cam.ac.uk:2 . Running FIFO length now 3
+---- Skynet splitting:  carrier.csi.cam.ac.uk:2
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_splitting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < ppc split > ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 4 4 0 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet split 2 1
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_msg',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'skynet split 2 1' }
+---- Skynet split_assign carrier.csi.cam.ac.uk:2 2
+---- Skynet calling skynet_bfp carrier.csi.cam.ac.uk:2 kappa 2 4
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_starting
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_starting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:5 < run kappa 2 4 0
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < run kappa 2 4 1
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:6 < run kappa 2 4 2
+ > ---
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:4 < run kappa 2 4 3
+ > ---
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet running kappa 2 4 1
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_running
+Adding carrier.csi.cam.ac.uk:2 to running FIFO at time 1433340429151
+Length of running FIFO is 4
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'kappa 2 4 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet running kappa 2 4 2
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_running
+Adding carrier.csi.cam.ac.uk:6 to running FIFO at time 1433340429152
+Length of running FIFO is 5
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 2 4 2' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet running kappa 2 4 0
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_running
+Adding carrier.csi.cam.ac.uk:5 to running FIFO at time 1433340429154
+Length of running FIFO is 6
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 2 4 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet running kappa 2 4 3
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_running
+Adding carrier.csi.cam.ac.uk:4 to running FIFO at time 1433340429155
+Length of running FIFO is 7
+running[0] is carrier.csi.cam.ac.uk:4
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_running',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 2 4 3' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) skynet completed kappa 4 4 2 1
+---- Skynet set_status carrier.csi.cam.ac.uk:1 ppc_waiting
+---- Skynet current WAITING ppcs # is: 1
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '1',
+  data: 'kappa 4 4 2 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:1) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) skynet completed kappa 2 4 2 0
+---- Skynet set_status carrier.csi.cam.ac.uk:6 ppc_waiting
+---- Skynet current WAITING ppcs # is: 2
+---- Skynet checking kappa ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '6',
+  data: 'kappa 2 4 2 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:6) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) skynet completed kappa 2 4 1 0
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_waiting
+---- Skynet current WAITING ppcs # is: 3
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 3 WAITING ppcs so splitting
+Oldest running is carrier.csi.cam.ac.uk:2 . Running FIFO length now 3
+---- Skynet splitting:  carrier.csi.cam.ac.uk:2
+---- Skynet set_status carrier.csi.cam.ac.uk:2 ppc_splitting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:2 < ppc split > ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'kappa 2 4 1 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) split rejected
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_msg',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '2',
+  data: 'split rejected' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:2) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) skynet completed kappa 2 4 0 0
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_waiting
+---- Skynet current WAITING ppcs # is: 3
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 3 WAITING ppcs so splitting
+Oldest running is carrier.csi.cam.ac.uk:5 . Running FIFO length now 1
+---- Skynet splitting:  carrier.csi.cam.ac.uk:5
+---- Skynet set_status carrier.csi.cam.ac.uk:5 ppc_splitting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:5 < ppc split > ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'kappa 2 4 0 0' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) split rejected
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_msg',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '5',
+  data: 'split rejected' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:5) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) skynet completed kappa 2 4 3 1
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_waiting
+---- Skynet current WAITING ppcs # is: 3
+---- Skynet checking kappa ---
+---- Skynet split_ppc: 3 WAITING ppcs so splitting
+Oldest running is carrier.csi.cam.ac.uk:4 . Running FIFO length now 0
+---- Skynet splitting:  carrier.csi.cam.ac.uk:4
+---- Skynet set_status carrier.csi.cam.ac.uk:4 ppc_splitting
+--- Skynet server to PPC:  carrier.csi.cam.ac.uk:4 < ppc split > ---
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_completed',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'kappa 2 4 3 1' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) split rejected
+------- Skynet server browser Shout Sent to ALL
+{ userid: 'skynet',
+  zone: 'skynet',
+  event_type: 'ppc_msg',
+  host_name: 'carrier.csi.cam.ac.uk',
+  slot_name: '4',
+  data: 'split rejected' }
+---- Skynet msg from ppc (carrier.csi.cam.ac.uk:4) 

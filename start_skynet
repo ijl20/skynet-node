@@ -1,0 +1,33 @@
+#!/usr/bin/wish -f
+
+#if {$argc != 7} {
+#  puts "usage: skyrun Prog Lmin Lmax Lstep Gmin Gmax Gstep"
+#  exit 0
+#}
+
+puts "Starting skynet..."
+
+cd "/home/ijl20/prologpf/skynet"
+
+set prog [lindex $argv 0]
+
+set g_min  [lindex $argv 1]
+set g_max  [lindex $argv 2]
+set g_step [lindex $argv 3]
+
+set l_min  [lindex $argv 4]
+set l_max  [lindex $argv 5]
+set l_step [lindex $argv 6]
+
+source skynet.tcl
+
+sky_connect [sky_hosts all closed]
+
+#for {set l $l_min} {$l <= $l_max} {set l [expr $l+$l_step]} {
+#    for {set g $g_min} {$g <= $g_max} {set g [expr $g+$g_step]} {
+#      sky_bfp [sky_hosts $g] $prog $l
+#      sky_wait
+#    }
+#}
+#sky_disconnect [sky_hosts all]
+#exit 0

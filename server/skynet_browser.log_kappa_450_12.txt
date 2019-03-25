@@ -1,0 +1,172 @@
+16:33:10.311 ppc start ./kappa.sh
+16:33:17.368 skynet bfp kappa 12
+16:33:17.395 carrier.csi.cam.ac.uk:4~ RUNNING kappa 450 12 1
+16:33:17.398 carrier.csi.cam.ac.uk:1~ RUNNING kappa 450 12 0
+16:33:17.405 carrier.csi.cam.ac.uk:9~ RUNNING kappa 450 12 3
+16:33:17.408 carrier.csi.cam.ac.uk:11~ RUNNING kappa 450 12 11
+16:33:17.412 carrier.csi.cam.ac.uk:3~ RUNNING kappa 450 12 8
+16:33:17.415 carrier.csi.cam.ac.uk:2~ RUNNING kappa 450 12 9
+16:33:17.418 carrier.csi.cam.ac.uk:10~ RUNNING kappa 450 12 6
+16:33:17.421 carrier.csi.cam.ac.uk:7~ RUNNING kappa 450 12 10
+16:33:17.423 carrier.csi.cam.ac.uk:5~ RUNNING kappa 450 12 4
+16:33:17.425 carrier.csi.cam.ac.uk:6~ RUNNING kappa 450 12 5
+16:33:17.428 carrier.csi.cam.ac.uk:12~ RUNNING kappa 450 12 7
+16:33:17.430 carrier.csi.cam.ac.uk:8~ RUNNING kappa 450 12 2
+16:33:21.461 carrier.csi.cam.ac.uk:1~ COMPLETED kappa 450 12 0 3
+16:33:26.522 carrier.csi.cam.ac.uk:4~ COMPLETED kappa 450 12 1 8
+16:33:30.454 carrier.csi.cam.ac.uk:8~ COMPLETED kappa 450 12 2 12
+16:33:30.465 carrier.csi.cam.ac.uk:9~ skynet split 2 12
+16:33:30.470 carrier.csi.cam.ac.uk:1~ RUNNING kappa 2 4 3
+16:33:30.475 carrier.csi.cam.ac.uk:4~ RUNNING kappa 2 4 2
+16:33:30.478 carrier.csi.cam.ac.uk:8~ RUNNING kappa 2 4 1
+16:33:30.480 carrier.csi.cam.ac.uk:9~ RUNNING kappa 2 4 0
+16:33:31.479 carrier.csi.cam.ac.uk:9~ COMPLETED kappa 2 4 0 0
+16:33:31.483 carrier.csi.cam.ac.uk:8~ COMPLETED kappa 2 4 1 0
+16:33:31.488 carrier.csi.cam.ac.uk:4~ COMPLETED kappa 2 4 2 0
+16:33:31.510 carrier.csi.cam.ac.uk:11~ skynet split 126 13
+16:33:31.521 carrier.csi.cam.ac.uk:4~ RUNNING kappa 126 4 3
+16:33:31.524 carrier.csi.cam.ac.uk:9~ RUNNING kappa 126 4 2
+16:33:31.526 carrier.csi.cam.ac.uk:8~ RUNNING kappa 126 4 1
+16:33:31.528 carrier.csi.cam.ac.uk:11~ RUNNING kappa 126 4 0
+16:33:32.499 carrier.csi.cam.ac.uk:1~ COMPLETED kappa 2 4 3 1
+16:33:35.460 carrier.csi.cam.ac.uk:5~ COMPLETED kappa 450 12 4 17
+16:33:37.498 carrier.csi.cam.ac.uk:6~ COMPLETED kappa 450 12 5 19
+16:33:38.479 carrier.csi.cam.ac.uk:3~ skynet split 20 20
+16:33:38.489 carrier.csi.cam.ac.uk:5~ RUNNING kappa 20 4 0
+16:33:38.493 carrier.csi.cam.ac.uk:6~ RUNNING kappa 20 4 3
+16:33:38.497 carrier.csi.cam.ac.uk:1~ RUNNING kappa 20 4 2
+16:33:38.500 carrier.csi.cam.ac.uk:3~ RUNNING kappa 20 4 1
+16:33:38.566 carrier.csi.cam.ac.uk:11~ COMPLETED kappa 126 4 0 6
+16:33:40.459 carrier.csi.cam.ac.uk:10~ COMPLETED kappa 450 12 6 22
+16:33:40.507 carrier.csi.cam.ac.uk:5~ COMPLETED kappa 20 4 0 1
+16:33:40.548 carrier.csi.cam.ac.uk:2~ skynet split 38 22
+16:33:40.554 carrier.csi.cam.ac.uk:11~ RUNNING kappa 38 4 3
+16:33:40.557 carrier.csi.cam.ac.uk:10~ RUNNING kappa 38 4 1
+16:33:40.562 carrier.csi.cam.ac.uk:5~ RUNNING kappa 38 4 0
+16:33:40.565 carrier.csi.cam.ac.uk:2~ RUNNING kappa 38 4 2
+16:33:41.527 carrier.csi.cam.ac.uk:3~ COMPLETED kappa 20 4 1 2
+16:33:43.541 carrier.csi.cam.ac.uk:1~ COMPLETED kappa 20 4 2 4
+16:33:43.599 carrier.csi.cam.ac.uk:5~ COMPLETED kappa 38 4 0 2
+16:33:44.525 carrier.csi.cam.ac.uk:7~ skynet split 65 26
+16:33:44.532 carrier.csi.cam.ac.uk:3~ RUNNING kappa 65 4 2
+16:33:44.536 carrier.csi.cam.ac.uk:1~ RUNNING kappa 65 4 3
+16:33:44.540 carrier.csi.cam.ac.uk:5~ RUNNING kappa 65 4 0
+16:33:44.543 carrier.csi.cam.ac.uk:7~ RUNNING kappa 65 4 1
+16:33:45.608 carrier.csi.cam.ac.uk:10~ COMPLETED kappa 38 4 1 4
+16:33:46.595 carrier.csi.cam.ac.uk:8~ COMPLETED kappa 126 4 1 14
+16:33:47.533 carrier.csi.cam.ac.uk:12~ COMPLETED kappa 450 12 7 29
+16:33:47.610 carrier.csi.cam.ac.uk:4~ skynet split 66 15
+16:33:47.615 carrier.csi.cam.ac.uk:10~ RUNNING kappa 66 4 1
+16:33:47.617 carrier.csi.cam.ac.uk:8~ RUNNING kappa 66 4 2
+16:33:47.620 carrier.csi.cam.ac.uk:12~ RUNNING kappa 66 4 0
+16:33:47.624 carrier.csi.cam.ac.uk:4~ RUNNING kappa 66 4 3
+16:33:48.579 carrier.csi.cam.ac.uk:5~ COMPLETED kappa 65 4 0 3
+16:33:49.601 carrier.csi.cam.ac.uk:2~ COMPLETED kappa 38 4 2 8
+16:33:51.650 carrier.csi.cam.ac.uk:12~ COMPLETED kappa 66 4 0 3
+16:33:52.569 carrier.csi.cam.ac.uk:7~ COMPLETED kappa 65 4 1 7
+16:33:52.584 carrier.csi.cam.ac.uk:6~ split rejected
+16:33:52.587 carrier.csi.cam.ac.uk:6~ COMPLETED kappa 20 4 3 13
+16:33:52.600 carrier.csi.cam.ac.uk:9~ skynet split 5 20
+16:33:52.602 carrier.csi.cam.ac.uk:6~ RUNNING kappa 5 4 0
+16:33:52.604 carrier.csi.cam.ac.uk:5~ RUNNING kappa 5 4 3
+16:33:52.608 carrier.csi.cam.ac.uk:2~ RUNNING kappa 5 4 2
+16:33:52.612 carrier.csi.cam.ac.uk:9~ RUNNING kappa 5 4 1
+16:33:52.616 carrier.csi.cam.ac.uk:11~ skynet split 13 11
+16:33:52.619 Skynet warning: Not enough path processors for bfp 13 4
+16:33:53.622 carrier.csi.cam.ac.uk:6~ COMPLETED kappa 5 4 0 0
+16:33:54.583 carrier.csi.cam.ac.uk:3~ skynet split 4 9
+16:33:54.589 carrier.csi.cam.ac.uk:7~ RUNNING kappa 4 4 1
+16:33:54.593 carrier.csi.cam.ac.uk:12~ RUNNING kappa 4 4 2
+16:33:54.596 carrier.csi.cam.ac.uk:6~ RUNNING kappa 4 4 0
+16:33:54.599 carrier.csi.cam.ac.uk:3~ RUNNING kappa 4 4 3
+16:33:54.620 carrier.csi.cam.ac.uk:2~ COMPLETED kappa 5 4 2 1
+16:33:54.626 carrier.csi.cam.ac.uk:9~ COMPLETED kappa 5 4 1 1
+16:33:55.634 carrier.csi.cam.ac.uk:7~ COMPLETED kappa 4 4 1 0
+16:33:55.637 carrier.csi.cam.ac.uk:6~ COMPLETED kappa 4 4 0 0
+16:33:55.679 carrier.csi.cam.ac.uk:10~ split rejected
+16:33:55.681 carrier.csi.cam.ac.uk:10~ COMPLETED kappa 66 4 1 7
+16:33:56.588 carrier.csi.cam.ac.uk:1~ skynet split 31 11
+16:33:56.596 carrier.csi.cam.ac.uk:6~ RUNNING kappa 31 4 0
+16:33:56.601 carrier.csi.cam.ac.uk:1~ RUNNING kappa 31 4 1
+16:33:56.604 carrier.csi.cam.ac.uk:2~ RUNNING kappa 31 4 3
+16:33:56.607 carrier.csi.cam.ac.uk:7~ RUNNING kappa 31 4 2
+16:33:56.621 carrier.csi.cam.ac.uk:12~ COMPLETED kappa 4 4 2 1
+16:33:56.633 carrier.csi.cam.ac.uk:5~ COMPLETED kappa 5 4 3 3
+16:33:56.661 carrier.csi.cam.ac.uk:4~ skynet split 34 8
+16:33:56.666 carrier.csi.cam.ac.uk:10~ RUNNING kappa 34 4 1
+16:33:56.669 carrier.csi.cam.ac.uk:9~ RUNNING kappa 34 4 2
+16:33:56.671 carrier.csi.cam.ac.uk:5~ RUNNING kappa 34 4 0
+16:33:56.682 carrier.csi.cam.ac.uk:8~ skynet split 5 8
+16:33:56.688 Skynet warning: Not enough path processors for bfp 5 4
+16:33:56.690 carrier.csi.cam.ac.uk:4~ RUNNING kappa 34 4 3
+16:33:57.623 carrier.csi.cam.ac.uk:3~ split rejected
+16:33:58.626 carrier.csi.cam.ac.uk:3~ COMPLETED kappa 4 4 3 3
+16:33:59.625 carrier.csi.cam.ac.uk:6~ COMPLETED kappa 31 4 0 2
+16:33:59.698 carrier.csi.cam.ac.uk:5~ COMPLETED kappa 34 4 0 2
+16:34:00.627 carrier.csi.cam.ac.uk:1~ split rejected
+16:34:00.638 carrier.csi.cam.ac.uk:1~ COMPLETED kappa 31 4 1 3
+16:34:00.648 carrier.csi.cam.ac.uk:7~ skynet split 3 3
+16:34:00.652 carrier.csi.cam.ac.uk:7~ RUNNING kappa 3 4 1
+16:34:00.655 carrier.csi.cam.ac.uk:5~ RUNNING kappa 3 4 0
+16:34:00.657 carrier.csi.cam.ac.uk:2~ skynet split 17 3
+16:34:00.658 Skynet warning: Not enough path processors for bfp 17 4
+16:34:00.661 carrier.csi.cam.ac.uk:3~ RUNNING kappa 3 4 2
+16:34:00.666 carrier.csi.cam.ac.uk:1~ RUNNING kappa 3 4 3
+16:34:01.652 carrier.csi.cam.ac.uk:5~ COMPLETED kappa 3 4 0 0
+16:34:01.674 carrier.csi.cam.ac.uk:7~ COMPLETED kappa 3 4 1 0
+16:34:01.708 carrier.csi.cam.ac.uk:9~ skynet split 3 4
+16:34:01.712 carrier.csi.cam.ac.uk:6~ RUNNING kappa 3 4 2
+16:34:01.715 carrier.csi.cam.ac.uk:5~ RUNNING kappa 3 4 1
+16:34:01.718 carrier.csi.cam.ac.uk:7~ RUNNING kappa 3 4 0
+16:34:01.722 carrier.csi.cam.ac.uk:9~ RUNNING kappa 3 4 3
+16:34:01.724 carrier.csi.cam.ac.uk:10~ split rejected
+16:34:01.728 carrier.csi.cam.ac.uk:10~ COMPLETED kappa 34 4 1 4
+16:34:02.675 carrier.csi.cam.ac.uk:3~ COMPLETED kappa 3 4 2 1
+16:34:02.733 carrier.csi.cam.ac.uk:4~ skynet split 17 5
+16:34:02.740 carrier.csi.cam.ac.uk:3~ RUNNING kappa 17 4 0
+16:34:02.746 carrier.csi.cam.ac.uk:10~ RUNNING kappa 17 4 2
+16:34:02.751 carrier.csi.cam.ac.uk:12~ RUNNING kappa 17 4 1
+16:34:02.753 carrier.csi.cam.ac.uk:4~ RUNNING kappa 17 4 3
+16:34:02.755 carrier.csi.cam.ac.uk:7~ COMPLETED kappa 3 4 0 0
+16:34:02.763 carrier.csi.cam.ac.uk:5~ COMPLETED kappa 3 4 1 0
+16:34:03.690 carrier.csi.cam.ac.uk:1~ COMPLETED kappa 3 4 3 2
+16:34:03.750 carrier.csi.cam.ac.uk:6~ split rejected
+16:34:03.753 carrier.csi.cam.ac.uk:6~ COMPLETED kappa 3 4 2 1
+16:34:03.755 carrier.csi.cam.ac.uk:9~ split rejected
+16:34:04.761 carrier.csi.cam.ac.uk:9~ COMPLETED kappa 3 4 3 2
+16:34:04.763 carrier.csi.cam.ac.uk:3~ split rejected
+16:34:04.765 carrier.csi.cam.ac.uk:3~ COMPLETED kappa 17 4 0 1
+16:34:05.761 carrier.csi.cam.ac.uk:12~ COMPLETED kappa 17 4 1 2
+16:34:05.769 carrier.csi.cam.ac.uk:10~ split rejected
+16:34:05.772 carrier.csi.cam.ac.uk:4~ skynet split 9 2
+16:34:05.781 carrier.csi.cam.ac.uk:3~ RUNNING kappa 9 4 1
+16:34:05.783 carrier.csi.cam.ac.uk:4~ RUNNING kappa 9 4 3
+16:34:05.786 carrier.csi.cam.ac.uk:1~ RUNNING kappa 9 4 2
+16:34:05.789 carrier.csi.cam.ac.uk:5~ RUNNING kappa 9 4 0
+16:34:06.771 carrier.csi.cam.ac.uk:10~ COMPLETED kappa 17 4 2 3
+16:34:06.787 carrier.csi.cam.ac.uk:3~ split rejected
+16:34:06.802 carrier.csi.cam.ac.uk:5~ COMPLETED kappa 9 4 0 0
+16:34:07.797 carrier.csi.cam.ac.uk:4~ skynet split 5 1
+16:34:07.802 carrier.csi.cam.ac.uk:4~ RUNNING kappa 5 4 2
+16:34:07.809 carrier.csi.cam.ac.uk:6~ RUNNING kappa 5 4 3
+16:34:07.823 carrier.csi.cam.ac.uk:7~ RUNNING kappa 5 4 0
+16:34:07.825 carrier.csi.cam.ac.uk:5~ RUNNING kappa 5 4 1
+16:34:07.827 carrier.csi.cam.ac.uk:3~ COMPLETED kappa 9 4 1 1
+16:34:08.816 carrier.csi.cam.ac.uk:1~ split rejected
+16:34:08.822 carrier.csi.cam.ac.uk:1~ COMPLETED kappa 9 4 2 2
+16:34:08.825 carrier.csi.cam.ac.uk:4~ split rejected
+16:34:08.843 carrier.csi.cam.ac.uk:7~ COMPLETED kappa 5 4 0 0
+16:34:09.826 carrier.csi.cam.ac.uk:4~ COMPLETED kappa 5 4 2 1
+16:34:09.833 carrier.csi.cam.ac.uk:5~ split rejected
+16:34:09.836 carrier.csi.cam.ac.uk:5~ COMPLETED kappa 5 4 1 1
+16:34:09.839 carrier.csi.cam.ac.uk:6~ skynet split 2 1
+16:34:09.846 carrier.csi.cam.ac.uk:4~ RUNNING kappa 2 4 0
+16:34:09.852 carrier.csi.cam.ac.uk:3~ RUNNING kappa 2 4 1
+16:34:09.854 carrier.csi.cam.ac.uk:6~ RUNNING kappa 2 4 3
+16:34:09.856 carrier.csi.cam.ac.uk:1~ RUNNING kappa 2 4 2
+16:34:10.850 carrier.csi.cam.ac.uk:4~ COMPLETED kappa 2 4 0 0
+16:34:10.864 carrier.csi.cam.ac.uk:3~ split rejected
+16:34:10.867 carrier.csi.cam.ac.uk:3~ COMPLETED kappa 2 4 1 0
+16:34:10.869 carrier.csi.cam.ac.uk:6~ split rejected
+16:34:10.879 carrier.csi.cam.ac.uk:1~ COMPLETED kappa 2 4 2 0
+16:34:11.870 carrier.csi.cam.ac.uk:6~ COMPLETED kappa 2 4 3 1

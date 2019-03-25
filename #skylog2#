@@ -1,0 +1,321 @@
+debug: kappa_split_test only found 1 waiting hosts
+
+debug: kappa_split_test only found 2 waiting hosts
+
+debug: kappa_split_test only found 3 waiting hosts
+
+debug: kappa_split_test only found 4 waiting hosts
+
+debug: kappa_split_test only found 5 waiting hosts
+
+debug: kappa_split_test only found 6 waiting hosts
+
+debug: kappa_split_test only found 7 waiting hosts
+
+debug: kappa_split_test only found 8 waiting hosts
+
+debug: kappa_split_test only found 9 waiting hosts
+
+debug: kappa_split_test succeeds with 10 waiting hosts
+debug: will interrupt milton at 20
+debug: interrupting <milton>
+
+debug: kappa_split_test only found 1 waiting hosts
+
+debug: kappa_split_test only found 2 waiting hosts
+
+debug: received oracle from <milton>
+debug: assigning from <milton,20> to <maxey 10 0 40>
+debug: assigning from <milton,20> to <orwell 10 1 40>
+debug: assigning from <milton,20> to <holme 10 2 40>
+debug: assigning from <milton,20> to <hilton 10 3 40>
+debug: assigning from <milton,20> to <linton 10 4 40>
+debug: assigning from <milton,20> to <toft 10 5 40>
+debug: assigning from <milton,20> to <upton 10 6 40>
+debug: assigning from <milton,20> to <barton 10 7 40>
+debug: assigning from <milton,20> to <pidley 10 8 40>
+debug: assigning from <milton,20> to <mepal 10 9 40>
+
+debug: kappa_split_test only found 3 waiting hosts
+
+debug: kappa_split_test only found 4 waiting hosts
+
+debug: kappa_split_test only found 5 waiting hosts
+
+debug: kappa_split_test only found 6 waiting hosts
+
+debug: kappa_split_test only found 7 waiting hosts
+
+debug: kappa_split_test only found 8 waiting hosts
+
+debug: kappa_split_test only found 9 waiting hosts
+
+debug: kappa_split_test succeeds with 10 waiting hosts
+debug: will interrupt sutton at 20
+debug: interrupting <sutton>
+
+debug: kappa_split_test only found 1 waiting hosts
+
+debug: received oracle from <sutton>
+debug: assigning from <sutton,20> to <girton 10 0 40>
+debug: assigning from <sutton,20> to <orwell 10 1 40>
+debug: assigning from <sutton,20> to <holme 10 2 40>
+debug: assigning from <sutton,20> to <hilton 10 3 40>
+debug: assigning from <sutton,20> to <linton 10 4 40>
+debug: assigning from <sutton,20> to <toft 10 5 40>
+debug: assigning from <sutton,20> to <upton 10 6 40>
+debug: assigning from <sutton,20> to <barton 10 7 40>
+debug: assigning from <sutton,20> to <pidley 10 8 40>
+debug: assigning from <sutton,20> to <mepal 10 9 40>
+
+debug: kappa_split_test only found 2 waiting hosts
+
+debug: kappa_split_test only found 3 waiting hosts
+
+debug: kappa_split_test only found 4 waiting hosts
+
+debug: kappa_split_test only found 5 waiting hosts
+
+debug: kappa_split_test only found 6 waiting hosts
+
+debug: kappa_split_test only found 7 waiting hosts
+
+debug: kappa_split_test only found 8 waiting hosts
+
+debug: kappa_split_test only found 9 waiting hosts
+
+debug: kappa_split_test succeeds with 10 waiting hosts
+debug: will interrupt upwell at 20
+debug: interrupting <upwell>
+
+debug: kappa_split_test only found 1 waiting hosts
+
+debug: kappa_split_test only found 2 waiting hosts
+
+debug: kappa_split_test only found 3 waiting hosts
+
+debug: kappa_split_test only found 4 waiting hosts
+debug: kappa_split_test only found 5 waiting hosts
+debug: received oracle from <upwell>
+debug: assigning from <upwell,20> to <holme 10 0 40>
+debug: assigning from <upwell,20> to <histon 10 1 40>
+debug: assigning from <upwell,20> to <hilton 10 2 40>
+debug: assigning from <upwell,20> to <ashley 10 3 40>
+debug: assigning from <upwell,20> to <linton 10 4 40>
+debug: assigning from <upwell,20> to <toft 10 5 40>
+debug: assigning from <upwell,20> to <upton 10 6 40>
+debug: assigning from <upwell,20> to <barton 10 7 40>
+debug: assigning from <upwell,20> to <pidley 10 8 40>
+debug: assigning from <upwell,20> to <mepal 10 9 40>
+debug: kappa_split_test only found 6 waiting hosts
+debug: kappa_split_test only found 7 waiting hosts
+debug: kappa_split_test only found 8 waiting hosts
+debug: kappa_split_test only found 9 waiting hosts
+debug: kappa_split_test succeeds with 10 waiting hosts
+debug: will interrupt heydon at 20
+debug: interrupting <heydon>
+debug: kappa_split_test only found 1 waiting hosts
+debug: kappa_split_test only found 2 waiting hosts
+debug: kappa_split_test only found 3 waiting hosts
+debug: kappa_split_test only found 4 waiting hosts
+debug: kappa_split_test only found 5 waiting hosts
+debug: received oracle from <heydon>
+debug: assigning from <heydon,20> to <orwell 10 0 40>
+debug: assigning from <heydon,20> to <holme 10 1 40>
+debug: assigning from <heydon,20> to <histon 10 2 40>
+debug: assigning from <heydon,20> to <hilton 10 3 40>
+debug: assigning from <heydon,20> to <ashley 10 4 40>
+debug: assigning from <heydon,20> to <toft 10 5 40>
+debug: assigning from <heydon,20> to <upton 10 6 40>
+debug: assigning from <heydon,20> to <barton 10 7 40>
+debug: assigning from <heydon,20> to <pidley 10 8 40>
+debug: assigning from <heydon,20> to <mepal 10 9 40>
+debug: kappa_split_test only found 6 waiting hosts
+debug: kappa_split_test only found 7 waiting hosts
+debug: kappa_split_test only found 8 waiting hosts
+debug: kappa_split_test only found 9 waiting hosts
+debug: kappa_split_test succeeds with 10 waiting hosts
+debug: will interrupt upware at 20
+debug: interrupting <upware>
+debug: kappa_split_test only found 1 waiting hosts
+debug: kappa_split_test only found 2 waiting hosts
+debug: kappa_split_test only found 3 waiting hosts
+debug: kappa_split_test only found 4 waiting hosts
+debug: kappa_split_test only found 5 waiting hosts
+debug: kappa_split_test only found 6 waiting hosts
+debug: kappa_split_test only found 7 waiting hosts
+debug: kappa_split_test only found 8 waiting hosts
+debug: received oracle from <upware>
+debug: assigning from <upware,20> to <hilton 10 0 40>
+debug: assigning from <upware,20> to <ashley 10 1 40>
+debug: assigning from <upware,20> to <heydon 10 2 40>
+debug: assigning from <upware,20> to <linton 10 3 40>
+debug: assigning from <upware,20> to <toft 10 4 40>
+debug: assigning from <upware,20> to <upton 10 5 40>
+debug: assigning from <upware,20> to <barton 10 6 40>
+debug: assigning from <upware,20> to <pidley 10 7 40>
+debug: assigning from <upware,20> to <mepal 10 8 40>
+debug: assigning from <upware,20> to <hatley 10 9 40>
+debug: kappa_split_test only found 9 waiting hosts
+debug: kappa_split_test succeeds with 10 waiting hosts
+debug: will interrupt manea at 20
+debug: interrupting <manea>
+debug: kappa_split_test only found 1 waiting hosts
+debug: kappa_split_test only found 2 waiting hosts
+debug: kappa_split_test only found 3 waiting hosts
+debug: kappa_split_test only found 4 waiting hosts
+debug: kappa_split_test only found 5 waiting hosts
+debug: kappa_split_test only found 6 waiting hosts
+debug: received oracle from <manea>
+debug: assigning from <manea,20> to <orwell 10 0 40>
+debug: assigning from <manea,20> to <holme 10 1 40>
+debug: assigning from <manea,20> to <histon 10 2 40>
+debug: assigning from <manea,20> to <hilton 10 3 40>
+debug: assigning from <manea,20> to <ashley 10 4 40>
+debug: assigning from <manea,20> to <linton 10 5 40>
+debug: assigning from <manea,20> to <toft 10 6 40>
+debug: assigning from <manea,20> to <pidley 10 7 40>
+debug: assigning from <manea,20> to <mepal 10 8 40>
+debug: assigning from <manea,20> to <hatley 10 9 40>
+debug: kappa_split_test only found 7 waiting hosts
+debug: kappa_split_test only found 8 waiting hosts
+debug: kappa_split_test only found 9 waiting hosts
+debug: kappa_split_test succeeds with 10 waiting hosts
+debug: will interrupt pymore at 20
+debug: interrupting <pymore>
+debug: kappa_split_test only found 1 waiting hosts
+debug: kappa_split_test only found 2 waiting hosts
+debug: kappa_split_test only found 3 waiting hosts
+debug: kappa_split_test only found 4 waiting hosts
+debug: kappa_split_test only found 5 waiting hosts
+debug: kappa_split_test only found 6 waiting hosts
+debug: kappa_split_test only found 7 waiting hosts
+debug: received oracle from <pymore>
+debug: assigning from <pymore,20> to <holme 10 0 40>
+debug: assigning from <pymore,20> to <hilton 10 1 40>
+debug: assigning from <pymore,20> to <ashley 10 2 40>
+debug: assigning from <pymore,20> to <heydon 10 3 40>
+debug: assigning from <pymore,20> to <upend 10 4 40>
+debug: assigning from <pymore,20> to <linton 10 5 40>
+debug: assigning from <pymore,20> to <upton 10 6 40>
+debug: assigning from <pymore,20> to <barton 10 7 40>
+debug: assigning from <pymore,20> to <pidley 10 8 40>
+debug: assigning from <pymore,20> to <hatley 10 9 40>
+debug: kappa_split_test only found 8 waiting hosts
+debug: kappa_split_test only found 9 waiting hosts
+debug: kappa_split_test succeeds with 10 waiting hosts
+debug: will interrupt ufford at 20
+debug: interrupting <ufford>
+debug: kappa_split_test only found 1 waiting hosts
+debug: kappa_split_test only found 2 waiting hosts
+debug: kappa_split_test only found 3 waiting hosts
+debug: kappa_split_test only found 4 waiting hosts
+debug: kappa_split_test only found 5 waiting hosts
+debug: received oracle from <ufford>
+debug: assigning from <ufford,20> to <pymore 10 0 40>
+debug: assigning from <ufford,20> to <maxey 10 1 40>
+debug: assigning from <ufford,20> to <lode 10 2 40>
+debug: assigning from <ufford,20> to <earith 10 3 40>
+debug: assigning from <ufford,20> to <hilton 10 4 40>
+debug: assigning from <ufford,20> to <heydon 10 5 40>
+debug: assigning from <ufford,20> to <toft 10 6 40>
+debug: assigning from <ufford,20> to <barton 10 7 40>
+debug: assigning from <ufford,20> to <pidley 10 8 40>
+debug: assigning from <ufford,20> to <hatley 10 9 40>
+debug: kappa_split_test only found 6 waiting hosts
+debug: kappa_split_test only found 7 waiting hosts
+debug: kappa_split_test only found 8 waiting hosts
+debug: kappa_split_test only found 9 waiting hosts
+debug: kappa_split_test succeeds with 10 waiting hosts
+debug: will interrupt coton at 20
+debug: interrupting <coton>
+debug: kappa_split_test only found 1 waiting hosts
+debug: kappa_split_test only found 2 waiting hosts
+debug: kappa_split_test only found 3 waiting hosts
+debug: kappa_split_test only found 4 waiting hosts
+debug: kappa_split_test only found 5 waiting hosts
+debug: kappa_split_test only found 6 waiting hosts
+debug: kappa_split_test only found 7 waiting hosts
+debug: kappa_split_test only found 8 waiting hosts
+debug: received oracle from <coton>
+debug: assigning from <coton,20> to <earith 10 0 40>
+debug: assigning from <coton,20> to <hilton 10 1 40>
+debug: assigning from <coton,20> to <murrow 10 2 40>
+debug: assigning from <coton,20> to <linton 10 3 40>
+debug: assigning from <coton,20> to <toft 10 4 40>
+debug: assigning from <coton,20> to <ufford 10 5 40>
+debug: assigning from <coton,20> to <barton 10 6 40>
+debug: assigning from <coton,20> to <pidley 10 7 40>
+debug: assigning from <coton,20> to <mepal 10 8 40>
+debug: assigning from <coton,20> to <hatley 10 9 40>
+debug: kappa_split_test only found 9 waiting hosts
+debug: kappa_split_test succeeds with 10 waiting hosts
+debug: will interrupt coates at 20
+debug: interrupting <coates>
+debug: kappa_split_test only found 1 waiting hosts
+debug: kappa_split_test only found 2 waiting hosts
+debug: kappa_split_test only found 3 waiting hosts
+debug: kappa_split_test only found 4 waiting hosts
+debug: kappa_split_test only found 5 waiting hosts
+debug: kappa_split_test only found 6 waiting hosts
+debug: kappa_split_test only found 7 waiting hosts
+debug: kappa_split_test only found 8 waiting hosts
+debug: received oracle from <coates>
+debug: assigning from <coates,20> to <lode 10 0 40>
+debug: assigning from <coates,20> to <orwell 10 1 40>
+debug: assigning from <coates,20> to <holme 10 2 40>
+debug: assigning from <coates,20> to <earith 10 3 40>
+debug: assigning from <coates,20> to <hilton 10 4 40>
+debug: assigning from <coates,20> to <ashley 10 5 40>
+debug: assigning from <coates,20> to <upend 10 6 40>
+debug: assigning from <coates,20> to <linton 10 7 40>
+debug: assigning from <coates,20> to <ufford 10 8 40>
+debug: assigning from <coates,20> to <pidley 10 9 40>
+debug: kappa_split_test only found 9 waiting hosts
+debug: kappa_split_test succeeds with 10 waiting hosts
+debug: will interrupt denton at 20
+debug: interrupting <denton>
+debug: kappa_split_test only found 1 waiting hosts
+debug: kappa_split_test only found 2 waiting hosts
+debug: kappa_split_test only found 3 waiting hosts
+debug: kappa_split_test only found 4 waiting hosts
+debug: kappa_split_test only found 5 waiting hosts
+debug: kappa_split_test only found 6 waiting hosts
+debug: kappa_split_test only found 7 waiting hosts
+debug: kappa_split_test only found 8 waiting hosts
+debug: kappa_split_test only found 9 waiting hosts
+debug: kappa_split_test succeeds with 10 waiting hosts
+debug: will interrupt sutton at 20
+debug: interrupting <sutton>
+debug: kappa_split_test only found 1 waiting hosts
+debug: kappa_split_test only found 2 waiting hosts
+debug: kappa_split_test only found 3 waiting hosts
+debug: kappa_split_test only found 4 waiting hosts
+debug: kappa_split_test only found 5 waiting hosts
+debug: received oracle from <denton>
+debug: assigning from <denton,20> to <coton 10 0 40>
+debug: assigning from <denton,20> to <upware 10 1 40>
+debug: assigning from <denton,20> to <pymore 10 2 40>
+debug: assigning from <denton,20> to <maxey 10 3 40>
+debug: assigning from <denton,20> to <orwell 10 4 40>
+debug: assigning from <denton,20> to <histon 10 5 40>
+debug: assigning from <denton,20> to <earith 10 6 40>
+debug: assigning from <denton,20> to <hilton 10 7 40>
+debug: assigning from <denton,20> to <ashley 10 8 40>
+debug: assigning from <denton,20> to <heydon 10 9 40>
+debug: kappa_split_test only found 6 waiting hosts
+debug: kappa_split_test only found 7 waiting hosts
+debug: kappa_split_test only found 8 waiting hosts
+debug: kappa_split_test only found 9 waiting hosts
+debug: kappa_split_test succeeds with 10 waiting hosts
+debug: will interrupt upwell at 20
+debug: interrupting <upwell>
+debug: kappa_split_test only found 1 waiting hosts
+debug: kappa_split_test only found 2 waiting hosts
+debug: kappa_split_test only found 3 waiting hosts
+debug: kappa_split_test only found 4 waiting hosts
+debug: kappa_split_test only found 5 waiting hosts
+debug: kappa_split_test only found 6 waiting hosts
+debug: kappa_split_test only found 7 waiting hosts
+debug: kappa_split_test only found 8 waiting hosts
+debug: kappa_split_test only found 9 waiting hosts
