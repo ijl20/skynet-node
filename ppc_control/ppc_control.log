@@ -1,0 +1,554 @@
+ppc_control: host_name, slot_name is carrier 1
+ppc_control: ./ppc_control started
+ppc_control: skynet_send_msg: <ok connect
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 4, FROM_CHILD = 0
+ppc_control: max_fd = 5, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ppc start ls -l
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc_control: ls (pid = 20756) started
+ppc_control: start ok:  ls -l
+ppc_control: in command loop
+ppc_control: newsock_fd = 4, FROM_CHILD = 7
+ppc_control: max_fd = 8, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <total 92
+-rwxrwxr-x 1 ijl20 ijl20 18937 Jun  7 09:58 ppc
+-rw-rw-r-- 1 ijl20 ijl20 15148 May 16 10:27 ppc.c
+-rwxrwxr-x 1 ijl20 ijl20 23125 Jun  7 16:55 ppc_control
+-rw-rw-r-- 1 ijl20 ijl20 19864 Jun  7 16:55 ppc_control.c
+-rw-rw-r-- 1 ijl20 ijl20   576 Jun  7 16:55 ppc_control.log
+-rw-rw-r-- 1 ijl20 ijl20   881 Jun  6 11:58 start_ppc.sh
+-rw-rw-r-- 1 ijl20 ijl20   951 Jun  6 11:58 stop_ppc.sh
+>
+ppc_control: skynet_send_msg: <total 92
+-rwxrwxr-x 1 ijl20 ijl20 18937 Jun  7 09:58 ppc
+-rw-rw-r-- 1 ijl20 ijl20 15148 May 16 10:27 ppc.c
+-rwxrwxr-x 1 ijl20 ijl20 23125 Jun  7 16:55 ppc_control
+-rw-rw-r-- 1 ijl20 ijl20 19864 Jun  7 16:55 ppc_control.c
+-rw-rw-r-- 1 ijl20 ijl20   576 Jun  7 16:55 ppc_control.log
+-rw-rw-r-- 1 ijl20 ijl20   881 Jun  6 11:58 start_ppc.sh
+-rw-rw-r-- 1 ijl20 ijl20   951 Jun  6 11:58 stop_ppc.sh
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 4, FROM_CHILD = 7
+ppc_control: max_fd = 8, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: connection FROM_CHILD closed
+ppc_control: in command loop
+ppc_control: newsock_fd = 4, FROM_CHILD = 7
+ppc_control: max_fd = 5, calling select...
+ppc_control: SIGCHLD
+ppc_control: skynet_send_msg: <skynet exit
+>
+ppc_control: max_fd = 5, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ppc start /bin/bash
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc_control: /bin/bash (pid = 20768) started
+ppc_control: start ok:  /bin/bash
+ppc_control: in command loop
+ppc_control: newsock_fd = 4, FROM_CHILD = 7
+ppc_control: max_fd = 8, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ls
+>
+ppc do_command: ls
+ppc_control: send_child_msg: sending <ls
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 4, FROM_CHILD = 7
+ppc_control: max_fd = 8, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <ppc
+ppc.c
+ppc_control
+ppc_control.c
+ppc_control.log
+start_ppc.sh
+stop_ppc.sh
+>
+ppc_control: skynet_send_msg: <ppc
+ppc.c
+ppc_control
+ppc_control.c
+ppc_control.log
+start_ppc.sh
+stop_ppc.sh
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 4, FROM_CHILD = 7
+ppc_control: max_fd = 8, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ls -l
+>
+ppc do_command: ls
+ppc_control: send_child_msg: sending <ls -l
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 4, FROM_CHILD = 7
+ppc_control: max_fd = 8, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <total 92
+-rwxrwxr-x 1 ijl20 ijl20 18937 Jun  7 09:58 ppc
+-rw-rw-r-- 1 ijl20 ijl20 15148 May 16 10:27 ppc.c
+-rwxrwxr-x 1 ijl20 ijl20 23125 Jun  7 16:55 ppc_control
+-rw-rw-r-- 1 ijl20 ijl20 19864 Jun  7 16:55 ppc_control.c
+-rw-rw-r-- 1 ijl20 ijl20  3171 Jun  7 16:56 ppc_control.log
+-rw-rw-r-- 1 ijl20 ijl20   881 Jun  6 11:58 start_ppc.sh
+-rw-rw-r-- 1 ijl20 ijl20   951 Jun  6 11:58 stop_ppc.sh
+>
+ppc_control: skynet_send_msg: <total 92
+-rwxrwxr-x 1 ijl20 ijl20 18937 Jun  7 09:58 ppc
+-rw-rw-r-- 1 ijl20 ijl20 15148 May 16 10:27 ppc.c
+-rwxrwxr-x 1 ijl20 ijl20 23125 Jun  7 16:55 ppc_control
+-rw-rw-r-- 1 ijl20 ijl20 19864 Jun  7 16:55 ppc_control.c
+-rw-rw-r-- 1 ijl20 ijl20  3171 Jun  7 16:56 ppc_control.log
+-rw-rw-r-- 1 ijl20 ijl20   881 Jun  6 11:58 start_ppc.sh
+-rw-rw-r-- 1 ijl20 ijl20   951 Jun  6 11:58 stop_ppc.sh
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 4, FROM_CHILD = 7
+ppc_control: max_fd = 8, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <pwd
+>
+ppc do_command: pwd
+ppc_control: send_child_msg: sending <pwd
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 4, FROM_CHILD = 7
+ppc_control: max_fd = 8, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: </home/ijl20/prologpf/ppc_control
+>
+ppc_control: skynet_send_msg: </home/ijl20/prologpf/ppc_control
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 4, FROM_CHILD = 7
+ppc_control: max_fd = 8, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <exit
+>
+ppc do_command: exit
+ppc_control: send_child_msg: sending <exit
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 4, FROM_CHILD = 7
+ppc_control: max_fd = 8, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: connection FROM_CHILD closed
+ppc_control: in command loop
+ppc_control: newsock_fd = 4, FROM_CHILD = 7
+ppc_control: max_fd = 5, calling select...
+ppc_control: SIGCHLD
+ppc_control: skynet_send_msg: <skynet exit
+>
+ppc_control: max_fd = 5, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ppc start ls
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc_control: ls (pid = 20777) started
+ppc_control: start ok:  ls
+ppc_control: in command loop
+ppc_control: newsock_fd = 4, FROM_CHILD = 7
+ppc_control: max_fd = 8, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <ppc
+ppc.c
+ppc_control
+ppc_control.c
+ppc_control.log
+start_ppc.sh
+stop_ppc.sh
+>
+ppc_control: skynet_send_msg: <ppc
+ppc.c
+ppc_control
+ppc_control.c
+ppc_control.log
+start_ppc.sh
+stop_ppc.sh
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 4, FROM_CHILD = 7
+ppc_control: max_fd = 8, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: connection FROM_CHILD closed
+ppc_control: in command loop
+ppc_control: newsock_fd = 4, FROM_CHILD = 7
+ppc_control: max_fd = 5, calling select...
+ppc_control: SIGCHLD
+ppc_control: skynet_send_msg: <skynet exit
+>
+ppc_control: max_fd = 5, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <>
+ppc_control: zero characters from skynet
+ppc_control: skynet_send_msg: <ok connect
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 5, FROM_CHILD = 7
+ppc_control: max_fd = 6, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ppc start ../ppc/ppc foo bah
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc_control: ../ppc/ppc (pid = 20888) started
+ppc_control: start ok:  ../ppc/ppc foo bah
+ppc_control: in command loop
+ppc_control: newsock_fd = 5, FROM_CHILD = 8
+ppc_control: max_fd = 9, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <ppc: host_name, slot_name is foo bah
+ppc: ../ppc/ppc started
+ppc: connected to Skynet
+ppc: sock_fd = 6, FROM_CHILD = 0
+>
+ppc_control: skynet_send_msg: <ppc: host_name, slot_name is foo bah
+ppc: ../ppc/ppc started
+ppc: connected to Skynet
+ppc: sock_fd = 6, FROM_CHILD = 0
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 5, FROM_CHILD = 8
+ppc_control: max_fd = 9, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <ppc: max_fd = 7, calling select...
+>
+ppc_control: skynet_send_msg: <ppc: max_fd = 7, calling select...
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 5, FROM_CHILD = 8
+ppc_control: max_fd = 9, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <ppc: back from select, testing fd_var...
+>
+ppc_control: skynet_send_msg: <ppc: back from select, testing fd_var...
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 5, FROM_CHILD = 8
+ppc_control: max_fd = 9, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <ppc: skynet_get_msg: <ppc connect>
+ppc do_command: ppc
+ppc do_command PPC command connect
+ppc: skynet_send_msg: <ok ppc connect foo bah>
+>
+ppc_control: skynet_send_msg: <ppc: skynet_get_msg: <ppc connect>
+ppc do_command: ppc
+ppc do_command PPC command connect
+ppc: skynet_send_msg: <ok ppc connect foo bah>
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 5, FROM_CHILD = 8
+ppc_control: max_fd = 9, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <ppc: sock_fd = 6, FROM_CHILD = 0
+>
+ppc_control: skynet_send_msg: <ppc: sock_fd = 6, FROM_CHILD = 0
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 5, FROM_CHILD = 8
+ppc_control: max_fd = 9, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <ppc: max_fd = 7, calling select...
+>
+ppc_control: skynet_send_msg: <ppc: max_fd = 7, calling select...
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 5, FROM_CHILD = 8
+ppc_control: max_fd = 9, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ppc start ./start_pp.sh 20
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc_control: in command loop
+ppc_control: newsock_fd = 5, FROM_CHILD = 8
+ppc_control: max_fd = 9, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ppc start ls
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc_control: in command loop
+ppc_control: newsock_fd = 5, FROM_CHILD = 8
+ppc_control: max_fd = 9, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <>
+ppc_control: zero characters from skynet
+ppc_control: skynet_send_msg: <ok connect
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 8
+ppc_control: max_fd = 9, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ppc start ls
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 8
+ppc_control: max_fd = 9, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ppc kill
+>
+ppc do_command: ppc
+ppc do_command PPC command kill
+ppc_control: skynet_send_msg: <ok ppc kill
+
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 8
+ppc_control: max_fd = 9, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: connection FROM_CHILD closed
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 8
+ppc_control: max_fd = 7, calling select...
+ppc_control: SIGCHLD
+ppc_control: skynet_send_msg: <skynet exit
+>
+ppc_control: max_fd = 7, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ppc start ls
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc_control: ls (pid = 20916) started
+ppc_control: start ok:  ls
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 10, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <ppc
+ppc.c
+ppc_control
+ppc_control.c
+ppc_control.log
+start_ppc.sh
+stop_ppc.sh
+>
+ppc_control: skynet_send_msg: <ppc
+ppc.c
+ppc_control
+ppc_control.c
+ppc_control.log
+start_ppc.sh
+stop_ppc.sh
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 10, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: connection FROM_CHILD closed
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 7, calling select...
+ppc_control: SIGCHLD
+ppc_control: skynet_send_msg: <skynet exit
+>
+ppc_control: max_fd = 7, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ppc start ../ppc/start_ppc.sh 20
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc_control: ../ppc/start_ppc.sh (pid = 20923) started
+ppc_control: start ok:  ../ppc/start_ppc.sh 20
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 10, calling select...
+ppc_control: SIGCHLD
+ppc_control: connection FROM_CHILD closed
+ppc_control: skynet_send_msg: <skynet exit
+>
+ppc_control: max_fd = 7, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ppc kill
+>
+ppc do_command: ppc
+ppc do_command PPC command kill
+ppc_control: skynet_send_msg: <nok ppc kill
+
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 7, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ppc start ls
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc_control: ls (pid = 21073) started
+ppc_control: start ok:  ls
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 10, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <ppc
+ppc.c
+ppc_control
+ppc_control.c
+ppc_control.log
+start_ppc.sh
+stop_ppc.sh
+>
+ppc_control: skynet_send_msg: <ppc
+ppc.c
+ppc_control
+ppc_control.c
+ppc_control.log
+start_ppc.sh
+stop_ppc.sh
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 10, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: connection FROM_CHILD closed
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 7, calling select...
+ppc_control: SIGCHLD
+ppc_control: skynet_send_msg: <skynet exit
+>
+ppc_control: max_fd = 7, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ppc start ../ppc/ppc a b
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc_control: ../ppc/ppc (pid = 21076) started
+ppc_control: start ok:  ../ppc/ppc a b
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 10, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <ppc: host_name, slot_name is a b
+ppc: ../ppc/ppc started
+ppc: connected to Skynet
+ppc: sock_fd = 7, FROM_CHILD = 0
+>
+ppc_control: skynet_send_msg: <ppc: host_name, slot_name is a b
+ppc: ../ppc/ppc started
+ppc: connected to Skynet
+ppc: sock_fd = 7, FROM_CHILD = 0
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 10, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <ppc: max_fd = 8, calling select...
+>
+ppc_control: skynet_send_msg: <ppc: max_fd = 8, calling select...
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 10, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <ppc: back from select, testing fd_var...
+>
+ppc_control: skynet_send_msg: <ppc: back from select, testing fd_var...
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 10, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <ppc: skynet_get_msg: <ppc connect>
+ppc do_command: ppc
+ppc do_command PPC command connect
+ppc: skynet_send_msg: <ok ppc connect a b>
+>
+ppc_control: skynet_send_msg: <ppc: skynet_get_msg: <ppc connect>
+ppc do_command: ppc
+ppc do_command PPC command connect
+ppc: skynet_send_msg: <ok ppc connect a b>
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 10, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <ppc: sock_fd = 7, FROM_CHILD = 0
+>
+ppc_control: skynet_send_msg: <ppc: sock_fd = 7, FROM_CHILD = 0
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 10, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <ppc: max_fd = 8, calling select...
+>
+ppc_control: skynet_send_msg: <ppc: max_fd = 8, calling select...
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 10, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ppc kill
+>
+ppc do_command: ppc
+ppc do_command PPC command kill
+ppc_control: skynet_send_msg: <ok ppc kill
+
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 10, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: connection FROM_CHILD closed
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 7, calling select...
+ppc_control: SIGCHLD
+ppc_control: skynet_send_msg: <skynet exit
+>
+ppc_control: max_fd = 7, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ppc start ../ppc/start_ppc.sh
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc_control: ../ppc/start_ppc.sh (pid = 21091) started
+ppc_control: start ok:  ../ppc/start_ppc.sh
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 10, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: child_get_msg: <killing 20930 (ppc carrier.csi.cam.ac.uk 1)
+>
+ppc_control: skynet_send_msg: <killing 20930 (ppc carrier.csi.cam.ac.uk 1)
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 10, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ppc start ls
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 10, calling select...
+ppc_control: back from select, testing fd_var...
+ppc_control: skynet_get_msg: <ppc kill
+>
+ppc do_command: ppc
+ppc do_command PPC command kill
+ppc_control: skynet_send_msg: <ok ppc kill
+
+>
+ppc_control: in command loop
+ppc_control: newsock_fd = 6, FROM_CHILD = 9
+ppc_control: max_fd = 10, calling select...
+ppc_control: SIGCHLD

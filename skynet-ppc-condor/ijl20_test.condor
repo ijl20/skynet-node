@@ -1,0 +1,13 @@
+# Unix submit description file
+# file: ijl20_test.condor -- simple sleep job
+
+Universe		= vanilla
+Requirements  		= (OpSys == "LINUX" && Arch =="X86_64")
+executable              = ijl20_test.sh
+log                     = ijl20_test.log
+output                  = job_output/ijl20_test_$(Process)_stdout.txt
+error                   = job_output/ijl20_test_$(Process)_errors.txt
+should_transfer_files   = Yes
+when_to_transfer_output = ON_EXIT
+queue 50
+

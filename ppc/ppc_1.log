@@ -1,0 +1,247 @@
+ppc: host_name, slot_name is carrier.csi.cam.ac.uk 1
+ppc: ./ppc started
+ppc: connected to Skynet
+ppc: sock_fd = 3, FROM_CHILD = 0
+ppc: max_fd = 4, calling select...
+ppc: back from select, testing fd_var...
+ppc: skynet_get_msg: <ppc connect>
+ppc do_command: ppc
+ppc do_command PPC command connect
+ppc: skynet_send_msg: <ok ppc connect carrier.csi.cam.ac.uk 1>
+ppc: sock_fd = 3, FROM_CHILD = 0
+ppc: max_fd = 4, calling select...
+ppc: back from select, testing fd_var...
+ppc: skynet_get_msg: <ppc start ./kappa.sh
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc: ./kappa.sh (pid = 23289) started
+ppc: start ok:  ./kappa.sh
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: child_get_msg: <skynet loaded ./kappa.sh
+>
+ppc: skynet_send_msg: <skynet loaded ./kappa.sh
+>
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: skynet_get_msg: <ppc kill
+>
+ppc do_command: ppc
+ppc do_command PPC command kill
+ppc: skynet_send_msg: <ok ppc kill
+
+>
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: SIGCHLD
+ppc: connection FROM_CHILD closed
+ppc: skynet_send_msg: <skynet exit>
+ppc: back from select, testing fd_var...
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 4, calling select...
+ppc: back from select, testing fd_var...
+ppc: skynet_get_msg: <ppc start ./kappa.sh
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc: ./kappa.sh (pid = 23629) started
+ppc: start ok:  ./kappa.sh
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: child_get_msg: <skynet loaded ./kappa.sh
+>
+ppc: skynet_send_msg: <skynet loaded ./kappa.sh
+>
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: skynet_get_msg: <run kappa 450 12 3
+>
+ppc do_command: run
+ppc: send_child_msg: sending <run kappa 450 12 3
+>
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: child_get_msg: <skynet running kappa 450 12 3
+>
+ppc: skynet_send_msg: <skynet running kappa 450 12 3
+>
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: skynet_get_msg: <ppc split
+>
+ppc do_command: ppc
+ppc do_command PPC command split
+ppc: do_command split - sending SIGINT to pid 23629
+ppc: do_command split - SIGINT to pid 23629 OK
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: SIGCHLD
+ppc: child_get_msg: <skynet split 3 11
+>
+ppc: skynet_send_msg: <skynet split 3 11
+>
+ppc: skynet_send_msg: <skynet exit>
+ppc: back from select, testing fd_var...
+ppc: connection FROM_CHILD closed
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 4, calling select...
+ppc: back from select, testing fd_var...
+ppc: skynet_get_msg: <ppc start ./kappa.sh
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc: ./kappa.sh (pid = 23646) started
+ppc: start ok:  ./kappa.sh
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: child_get_msg: <skynet loaded ./kappa.sh
+>
+ppc: skynet_send_msg: <skynet loaded ./kappa.sh
+>
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: skynet_get_msg: <run kappa 450 12 3
+>
+ppc do_command: run
+ppc: send_child_msg: sending <run kappa 450 12 3
+>
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: child_get_msg: <skynet running kappa 450 12 3
+>
+ppc: skynet_send_msg: <skynet running kappa 450 12 3
+>
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: skynet_get_msg: <ppc split
+>
+ppc do_command: ppc
+ppc do_command PPC command split
+ppc: do_command split - sending SIGINT to pid 23646
+ppc: do_command split - SIGINT to pid 23646 OK
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: child_get_msg: <skynet split 3 11
+>
+ppc: skynet_send_msg: <skynet split 3 11
+>
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: SIGCHLD
+ppc: connection FROM_CHILD closed
+ppc: skynet_send_msg: <skynet exit>
+ppc: back from select, testing fd_var...
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 4, calling select...
+ppc: back from select, testing fd_var...
+ppc: skynet_get_msg: <ppc start ./kappa.sh
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc: ./kappa.sh (pid = 23659) started
+ppc: start ok:  ./kappa.sh
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: child_get_msg: <skynet loaded ./kappa.sh
+>
+ppc: skynet_send_msg: <skynet loaded ./kappa.sh
+>
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: skynet_get_msg: <run kappa 450 12 3
+>
+ppc do_command: run
+ppc: send_child_msg: sending <run kappa 450 12 3
+>
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: child_get_msg: <skynet running kappa 450 12 3
+>
+ppc: skynet_send_msg: <skynet running kappa 450 12 3
+>
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: skynet_get_msg: <ppc split
+>
+ppc do_command: ppc
+ppc do_command PPC command split
+ppc: do_command split - sending SIGINT to pid 23659
+ppc: do_command split - SIGINT to pid 23659 OK
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: SIGCHLD
+ppc: child_get_msg: <skynet split 6 8
+>
+ppc: skynet_send_msg: <skynet split 6 8
+>
+ppc: skynet_send_msg: <skynet exit>
+ppc: back from select, testing fd_var...
+ppc: connection FROM_CHILD closed
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 4, calling select...
+ppc: back from select, testing fd_var...
+ppc: skynet_get_msg: <ppc start ./kappa.sh
+>
+ppc do_command: ppc
+ppc do_command PPC command start
+ppc: ./kappa.sh (pid = 23679) started
+ppc: start ok:  ./kappa.sh
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: child_get_msg: <skynet loaded ./kappa.sh
+>
+ppc: skynet_send_msg: <skynet loaded ./kappa.sh
+>
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: skynet_get_msg: <run kappa 600 1 0
+>
+ppc do_command: run
+ppc: send_child_msg: sending <run kappa 600 1 0
+>
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: child_get_msg: <skynet running kappa 600 1 0
+>
+ppc: skynet_send_msg: <skynet running kappa 600 1 0
+>
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: back from select, testing fd_var...
+ppc: skynet_get_msg: <ppc split
+>
+ppc do_command: ppc
+ppc do_command PPC command split
+ppc: do_command split - sending SIGINT to pid 23679
+ppc: do_command split - SIGINT to pid 23679 OK
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 7, calling select...
+ppc: SIGCHLD
+ppc: child_get_msg: <skynet split 38 566
+>
+ppc: skynet_send_msg: <skynet split 38 566
+>
+ppc: skynet_send_msg: <skynet exit>
+ppc: back from select, testing fd_var...
+ppc: connection FROM_CHILD closed
+ppc: sock_fd = 3, FROM_CHILD = 6
+ppc: max_fd = 4, calling select...

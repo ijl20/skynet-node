@@ -1,0 +1,2 @@
+ceph-compute000 slot1_1 sleeping for 30 seconds
+connect

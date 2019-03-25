@@ -1,0 +1,3 @@
+ceph-compute001 slot1_8 sleeping for 30 seconds
+Welcome to Skynet
+15:54:56 CEPH-COMPUTE001 SLOT1_8 JOB COMPLETED
